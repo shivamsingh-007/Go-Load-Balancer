@@ -1,0 +1,14 @@
+# Build outputs
+bin/
+dist/
+*.exe
+*.out
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Generated load test artifacts
+scripts/autocannon-*.txt
+scripts/metrics-stress*.json
