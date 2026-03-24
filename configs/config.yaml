@@ -1,0 +1,30 @@
+listen_address: ":8080"
+admin_address: ":8081"
+strategy: "round_robin"
+request_timeout_ms: 3000
+retry_count: 1
+health_check:
+  interval_ms: 2000
+  timeout_ms: 800
+  failure_threshold: 2
+  success_threshold: 2
+rate_limit:
+  enabled: false
+  rps: 20000
+  burst: 40000
+backends:
+  - id: "backend-1"
+    host: "127.0.0.1"
+    port: 9001
+    weight: 1
+    health_path: "/health"
+  - id: "backend-2"
+    host: "127.0.0.1"
+    port: 9002
+    weight: 1
+    health_path: "/health"
+  - id: "backend-3"
+    host: "127.0.0.1"
+    port: 9003
+    weight: 2
+    health_path: "/health"

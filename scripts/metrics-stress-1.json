@@ -1,0 +1,16 @@
+{
+    "uptime_seconds":  59,
+    "requests_per_second":  0,
+    "total_requests":  0,
+    "total_errors":  0,
+    "total_timeouts":  0,
+    "backend_active_connections":  {
+
+                                   },
+    "backend_requests":  {
+
+                         },
+    "status_counts":  {
+
+                      }
+}

@@ -1,0 +1,20 @@
+{
+    "uptime_seconds":  169,
+    "requests_per_second":  0,
+    "total_requests":  330769,
+    "total_errors":  0,
+    "total_timeouts":  0,
+    "backend_active_connections":  {
+                                       "backend-1":  0,
+                                       "backend-2":  0,
+                                       "backend-3":  0
+                                   },
+    "backend_requests":  {
+                             "backend-1":  82692,
+                             "backend-2":  82692,
+                             "backend-3":  165385
+                         },
+    "status_counts":  {
+                          "200":  330769
+                      }
+}
